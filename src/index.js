@@ -7,8 +7,8 @@ const printRobotsTXT = (options) => {
   USER_AGENTS.forEach(({ agents }) => {
     agents.forEach((agent) => {
       robotsTXT += `User-agent: ${agent}\n`;
+      robotsTXT += `Disallow: ${path}\n`;
     });
-    robotsTXT += `Disallow: ${path}\n`;
   });
   return robotsTXT;
 };
