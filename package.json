@@ -1,6 +1,6 @@
 {
   "name": "disallow-ai",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opt your web properties out from known AI scraper tools.",
   "main": "src/index.js",
   "type": "module",
