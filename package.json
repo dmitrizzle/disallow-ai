@@ -3,7 +3,6 @@
   "version": "0.0.3",
   "description": "Opt your web properties out from known AI scraper tools.",
   "main": "src/index.js",
-  "type": "module",
   "repository": "https://github.com/dmitrizzle/disallow-ai.git",
   "author": "dmitrizzle <8587882+dmitrizzle@users.noreply.github.com>",
   "license": "MIT",
