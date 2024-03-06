@@ -1,6 +1,6 @@
 {
   "name": "disallow-ai",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Opt your web properties out from known AI scraper tools.",
   "main": "src/index.js",
   "repository": "https://github.com/dmitrizzle/disallow-ai.git",
