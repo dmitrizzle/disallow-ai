@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "test": "jest",
-    "prepare": "npx jest && node ./scripts/build-docs.js"
+    "prepare": "npx jest && node ./scripts/build-robots.js"
   },
   "dependencies": {
     "@babel/preset-env": "^7.24.0",
