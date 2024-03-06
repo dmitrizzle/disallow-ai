@@ -1,5 +1,4 @@
-# `robots.txt` snippet.
-> Opt your web properties out from known AI scraper tools.
+# Opt your web properties out from known AI scraper tools.
 
 ### NPM package.
 
