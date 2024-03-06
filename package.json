@@ -1,0 +1,17 @@
+{
+  "name": "disallow-ai",
+  "version": "0.0.1",
+  "description": "Opt your web properties out from known AI scraper tools.",
+  "main": "src/index.js",
+  "repository": "https://github.com/dmitrizzle/disallow-ai.git",
+  "author": "dmitrizzle <8587882+dmitrizzle@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.24.0",
+    "jest": "^29.7.0"
+  }
+}
