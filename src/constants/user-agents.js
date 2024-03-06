@@ -11,4 +11,4 @@ const USER_AGENTS = [
   { id: "m84m", agents: ["omgili", "Omgilibot"] },
 ];
 
-export default USER_AGENTS;
+module.exports = USER_AGENTS;

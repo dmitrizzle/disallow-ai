@@ -1,6 +1,6 @@
-import USER_AGENTS from "./constants/user-agents";
+const USER_AGENTS = require("./constants/user-agents");
 
-export const printRobotsTXT = (options) => {
+const printRobotsTXT = (options) => {
   let robotsTXT = "";
   const path = options?.path || "/";
 
@@ -13,4 +13,9 @@ export const printRobotsTXT = (options) => {
   return robotsTXT;
 };
 
-export const userAgents = USER_AGENTS;
+const userAgents = USER_AGENTS;
+
+module.exports = {
+  printRobotsTXT,
+  userAgents,
+};
