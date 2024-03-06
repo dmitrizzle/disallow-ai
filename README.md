@@ -1,41 +1,24 @@
 # `robots.txt` snippet.
 > Opt your web properties out from known AI scraper tools.
 
-This is an opinionated list meant to help automatically opt-out web properties from training machine learning models while keeping them discoverable by major search engines and available for reference by some productivity tools.
-```
-User-agent: Amazonbot
-Disallow: /
+### NPM package.
 
-User-agent: anthropic-ai
-Disallow: /
+`yarn add disallow-ai` or `npm i disallow-ai`
 
-User-agent: Bytespider
-Disallow: /
+See below for API.
 
-User-agent: CCBot
-Disallow: /
+### What is this?
+This is an opinionated, maintained list of known user agents of scraper bots that use web content to train AI models.
 
-User-agent: ChatGPT-User
-Disallow: /
+This package is intended to help webmasters automatically opt out of training AI/machine learning models with the content of a property. Its intention is to remain visible for search engines and productivity tools. It's optimized for Node.js servers (e.x., Express/Next.js) but you can also copy-paste contents from (`src/robots.txt`)[/src/robots.txt] directly into your `robots.txt` file on any web server.
 
-User-agent: cohere-ai
-Disallow: /
 
-User-agent: FacebookBot
-Disallow: /
+### API.
+- `printRobotsTXT(options)` prints text string for `robots.txt` (same content as the above snippet).
+    - `options.path` if you want to set a disallow path to something other than `/`, you'll need to pass a value to this key.
+- `userAgents` is a direct reference to an array of objects with all the user agent info.
 
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: GPTBot
-Disallow: /
-
-# Two user agent strings found for Omgili
-User-agent: omgili
-Disallow: /
-User-agent: Omgilibot
-Disallow: /
-```
-Source: https://darkvisitors.com/
+### Sources
+https://darkvisitors.com/
 
 Contributions welcome.
