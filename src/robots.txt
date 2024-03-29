@@ -20,3 +20,5 @@ User-agent: omgili
 Disallow: /
 User-agent: Omgilibot
 Disallow: /
+User-agent: Diffbot
+Disallow: /
