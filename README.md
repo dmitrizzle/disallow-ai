@@ -26,6 +26,7 @@ server.get("/robots.txt", (req, res, next) => {
 server.listen();
 
 ```
+You can run an example server with `node ./example/server.js`.
 
 ### Sources.
 https://darkvisitors.com/

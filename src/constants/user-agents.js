@@ -9,6 +9,7 @@ const USER_AGENTS = [
   { id: "e6mk", agents: ["Google-Extended"] },
   { id: "fqrp", agents: ["GPTBot"] },
   { id: "m84m", agents: ["omgili", "Omgilibot"] },
+  { id: "d90k", agents: ["Diffbot"]}
 ];
 
 module.exports = USER_AGENTS;
